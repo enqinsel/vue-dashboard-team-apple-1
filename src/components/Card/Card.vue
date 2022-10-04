@@ -22,7 +22,12 @@
 					<div class="card__content">
 							<div class="gird">
 									<div class="grid__col">
+										<template v-if="props.data.Status === 1">
 											<Tag name="Active" variant="success" icon="fiber_manual_record" />
+										</template>	
+										<template v-if="props.data.Status === 0">
+											<Tag name="Inactive" variant="danger" icon="fiber_manual_record" />
+										</template>	
 									</div>
 									<div class="grid__col">
 											b
