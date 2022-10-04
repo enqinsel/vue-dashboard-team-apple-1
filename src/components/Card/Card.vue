@@ -1,11 +1,9 @@
 <script setup>
-	import {ref, onMounted} from 'vue';
 	import Progress from '@components/Progress/Progress.vue';
 	import Button from '@components/Button/Button.vue';
 	import Widget from '@components/Widget/Widget.vue';
 	import Avatar from '@components/Avatar/Avatar.vue';
 	import Tag from '@components/Tag/Tag.vue';
-	import projectData from '@assets/data/data.json';
 	
 	const props = defineProps(['data']);
 	</script>
