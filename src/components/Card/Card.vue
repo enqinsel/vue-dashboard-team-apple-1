@@ -2,7 +2,7 @@
 	import {ref, onMounted} from 'vue';
 	import Progress from '@components/Progress/Progress.vue';
 	import Button from '@components/Button/Button.vue';
-	import Windget from '@components/Widget/Windget.vue';
+	import Widget from '@components/Widget/Widget.vue';
 	import Avatar from '@components/Avatar/Avatar.vue';
 	import Tag from '@components/Tag/Tag.vue';
 	import projectData from '@assets/data/data.json';
@@ -29,8 +29,8 @@
 									</div>
 									<div class="grid__col">
 											<div class="widget-group">
-													<Windget :data="{ piece: 14, name: 'Tasks' }" />
-													<Windget :data="{ piece: 3, name: 'Members' }" />
+													<Widget :data="{ piece: 14, name: 'Tasks' }" />
+													<Widget :data="{ piece: 3, name: 'Members' }" />
 											</div>
 									</div>
 									<div class="grid__col">
