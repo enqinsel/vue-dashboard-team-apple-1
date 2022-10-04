@@ -28,6 +28,9 @@
 										<template v-if="props.data.Status === 0">
 											<Tag name="Inactive" variant="danger" icon="fiber_manual_record" />
 										</template>	
+										<template v-if="props.data.Status === 2">
+											<Tag name="On Hold" variant="warning" icon="fiber_manual_record" />
+										</template>	
 									</div>
 									<div class="grid__col">
 											b
