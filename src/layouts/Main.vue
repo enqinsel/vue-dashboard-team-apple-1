@@ -1,7 +1,7 @@
 <script setup>
 	import { computed } from 'vue';
 	import Card from '@components/Card/Card.vue';
-	import projectData from '@assets/data/project.json';
+	import projectData from '@assets/data/data.json';
 	
 	const projects = computed( () =>{
 			return projectData

@@ -5,7 +5,7 @@
 	import Windget from '@components/Widget/Windget.vue';
 	import Avatar from '@components/Avatar/Avatar.vue';
 	import Tag from '@components/Tag/Tag.vue';
-	import projectData from '@assets/data/project.json';
+	import projectData from '@assets/data/data.json';
 	
 	const props = defineProps(['data']);
 	</script>
