@@ -5,6 +5,7 @@
 	import Button from '@components/Button/Button.vue';
 	import Badge from '@components/Badge/Badge.vue';
 	import Offcanvas from '@components/Offcanvas/Offcanvas.vue';
+	import Popup from '../components/Popup/Popup.vue'
 	
 	const props = defineProps(['title']);
 	const data = ref({
@@ -22,6 +23,18 @@
 	const searchHandler = (value) => {
 		 alert(value);
 	}
+
+	let pop = ref(false)
+
+	function openPopup(){
+		pop.value = true
+		return
+	}
+
+	function offPopup(){
+		pop.value = false
+		return
+	}
 	</script>
 	
 	<template>
@@ -38,7 +51,8 @@
 						 <Badge icon="notifications" active @click="toggleHandler" />
 						 <Button icon="settings" variant="icon" classes="text-strong" />
 					</div>
-					<UserInfo :data="data" />
+					<UserInfo class="userinfo" :data="data" @click="openPopup" />
+					<Popup  v-if="pop" @offPopup="offPopup"></Popup>
 			  </div>
 			  <Offcanvas v-model:show="toggleNotification">
 					<template #header>
@@ -50,3 +64,9 @@
 			  </Offcanvas>
 		 </header>
 	</template>
+
+<style scoped>
+	.userinfo:hover{
+		cursor: pointer;
+	}
+</style>
