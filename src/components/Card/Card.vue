@@ -26,14 +26,18 @@
 										<template v-if="props.data.Status === 0">
 											<Tag name="Inactive" variant="danger" icon="fiber_manual_record" />
 										</template>	
+										<template v-if="props.data.Status === 2">
+											<Tag name="On hold" variant="warning" icon="fiber_manual_record" />
+										</template>	
 									</div>
 									<div class="grid__col">
-											b
+											<h6>Start Date</h6>
+											{{props.data.Start_Date}}
 									</div>
 									<div class="grid__col">
 											<div class="widget-group">
-													<Widget :data="{ piece: 14, name: 'Tasks' }" />
-													<Widget :data="{ piece: 3, name: 'Members' }" />
+													<Widget :data="{ piece: props.data.Task_Count, name: 'Tasks' }" />
+													<Widget :data="{ piece: props.data.Member, name: 'Members' }" />
 											</div>
 									</div>
 									<div class="grid__col">
