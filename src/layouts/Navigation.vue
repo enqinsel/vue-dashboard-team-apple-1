@@ -8,7 +8,7 @@ import Form from '@components/Forms/Form.vue';
 
 const tabPanes = ref(['All', 'Active', 'Inactive', 'On hold', 'Completed']);
 const dropItems = ref(['Default', 'Important', 'Priority']);
-const dropValue = ref('');
+const dropValue = ref('Default');
 const activeTab = ref('');
 const addModal = ref(false);
 

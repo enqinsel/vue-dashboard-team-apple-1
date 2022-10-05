@@ -2,8 +2,13 @@
 	import { ref, computed } from 'vue'
 	
 	const props = defineProps(['placeholder']);
+	const emit = defineEmits(['search']);
 	
 	const searchText = ref('');
+	
+	const keydownHandler = (e) => {
+		emit('search', e.target.value);
+	}
 	
 	const show = computed(() => {
 		 return searchText.value.length > 0 ? true : false;
@@ -16,7 +21,7 @@
 					<span class="material-symbols-outlined">search</span>
 			  </div>
 			  <input type="text" class="search__input" :class="show ? 'active' : ''" :placeholder="props.placeholder"
-					v-model="searchText">
+					v-model="searchText" @keydown.enter="keydownHandler">
 			  <transition name="fade">
 					<div class="search__content" v-show="show">
 						 <small class="text-secondary">Search results for {{ searchText }}</small>
