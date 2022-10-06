@@ -32,7 +32,7 @@ const props = defineProps(['data']);
 				</div>
 				<div class="grid__col">
 					<p class="fs-sm text-fade mb-1">Start Date</p>
-					{{props.data.Start_Date}}
+					<small class="text-fade">{{props.data.Start_Date}}</small>
 				</div>
 				<div class="grid__col">
 					<div class="widget-group">
