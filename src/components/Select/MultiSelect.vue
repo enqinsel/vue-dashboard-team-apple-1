@@ -13,8 +13,6 @@ const toggleHander = () => {
 const selectHandler = (item) => {
 	selects.value.includes(item) ? selects.value.splice(selects.value.indexOf(item), 1) : selects.value.push(item);
 	emit('update:value', selects.value);
-	// toggle.value = false;
-	console.log(props.value);
 }
 
 const optionFilter = computed(() => {

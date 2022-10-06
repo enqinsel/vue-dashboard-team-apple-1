@@ -18,7 +18,7 @@ const props = defineProps(['data']);
 			</div>
 		</div>
 		<div class="card__content">
-			<div class="gird">
+			<div class="grid">
 				<div class="grid__col">
 					<template v-if="props.data.Status === 1">
 						<Tag name="Active" variant="success" icon="fiber_manual_record" />
@@ -91,7 +91,7 @@ const props = defineProps(['data']);
 	// &__action {}
 }
 
-.gird {
+.grid {
 	display: grid;
 	gap: 16px;
 	grid-template-areas:

@@ -8,7 +8,7 @@ const props = defineProps(['image', 'size'])
 	</div>
 </template>
 	
-<steyle lang="scss">
+<style lang="scss">
 .avatar {
 	display: flex;
 	justify-content: center;
@@ -17,4 +17,4 @@ const props = defineProps(['image', 'size'])
 	border-radius: 50%;
 	overflow: hidden;
 }
-</steyle>
+</style>

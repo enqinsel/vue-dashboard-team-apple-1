@@ -5,7 +5,7 @@ const emit = defineEmits(['update:active']);
 
 const active = ref(props.panes[0]);
 
-const clikHandler = (name) => {
+const clickHandler = (name) => {
     emit('update:active', name);
     active.value = name;
 }
@@ -14,8 +14,8 @@ const clikHandler = (name) => {
 <template>
     <div class="tab">
         <div class="tab__content">
-            <div class="tab__item" v-for="pane in props.panes" :key="pane" @click="clikHandler(pane)"
-                :class="pane === active ? 'active':''">
+            <div class="tab__item" v-for="pane in props.panes" :key="pane" @click="clickHandler(pane)"
+                :class="pane === active ? 'active':'' ">
                 {{ pane }}
             </div>
         </div>

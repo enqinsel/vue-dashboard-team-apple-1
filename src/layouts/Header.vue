@@ -51,7 +51,6 @@ const togglePopup = () => {
 				<h3 class="text-secondary">Notification</h3>
 			</template>
 			<template #body>
-
 			</template>
 		</Offcanvas>
 	</header>
