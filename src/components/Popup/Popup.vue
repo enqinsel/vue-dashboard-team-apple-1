@@ -1,8 +1,8 @@
 <script setup>
-const emits = defineEmits(["offPopup"])
+const emits = defineEmits(["show"])
 
 const closeHandler = () => {
-	emits("offPopup")
+	emits("show")
 }
 </script>
 

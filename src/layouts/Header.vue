@@ -24,17 +24,20 @@
 		 alert(value);
 	}
 
-	let pop = ref(false)
-
-	function openPopup(){
-		pop.value = true
-		return
+	const  toggle = ref(false);
+	const togglePopup = () => {
+		toggle.value = !toggle.value;
 	}
 
-	function offPopup(){
-		pop.value = false
-		return
-	}
+	// function openPopup(){
+	// 	pop.value = true
+	// 	return
+	// }
+
+	// function offPopup(){
+	// 	pop.value = false
+	// 	return
+	// }
 	</script>
 	
 	<template>
@@ -51,8 +54,8 @@
 						 <Badge icon="notifications" active @click="toggleHandler" />
 						 <Button icon="settings" variant="icon" classes="text-strong" />
 					</div>
-					<UserInfo class="userinfo" :data="data" @click="openPopup" />
-					<Popup  v-if="pop" @offPopup="offPopup"></Popup>
+					<UserInfo class="userinfo" :data="data" @click="togglePopup" />
+					<Popup  v-if="toggle" @show="togglePopup"></Popup>
 			  </div>
 			  <Offcanvas v-model:show="toggleNotification">
 					<template #header>

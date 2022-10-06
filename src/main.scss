@@ -153,6 +153,7 @@ a {
 	}
 
 	&-strog {
+		font-weight: 500;
 		& > * {
 			font-weight: 700 !important;
 		}
@@ -578,4 +579,14 @@ a {
 .scale-leave-to,
 .scale-leave-active {
 	animation: scaleOut 0.3s ease;
+}
+
+.fs-sm{
+	font-size: 14px;
+}
+.mb-1{
+	margin-bottom: 8px;
+}
+.text-fade{
+	color: var(--color-text);
 }
