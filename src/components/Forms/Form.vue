@@ -7,8 +7,8 @@ import MultiSelect from '@components/Select/MultiSelect.vue';
 
 const props = defineProps(['data']);
 
-const slectStaus = ref('');
-const slectMembers = ref([]);
+const selectStatus = ref('');
+const selectMembers = ref([]);
 
 </script>
 	
@@ -25,10 +25,10 @@ const slectMembers = ref([]);
 			<Textarea name="message" placeholder="Enter project message" classes="w-100" v-model:value="data.message" />
 		</div>
 		<div class="form__group">
-			<Select placeholder="Select Status" :options="data.status" v-model:value="slectStaus" />
+			<Select placeholder="Select Status" :options="data.status" v-model:value="selectStatus" />
 		</div>
 		<div class="form__group">
-			<MultiSelect placeholder="Members List" :options="data.members" v-model:value="slectMembers" />
+			<MultiSelect placeholder="Members List" :options="data.members" v-model:value="selectMembers" />
 		</div>
 	</form>
 </template>

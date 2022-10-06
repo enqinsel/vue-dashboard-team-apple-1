@@ -24,7 +24,7 @@ const form = ref({
 	members: ['Seyit', 'Engin', 'Kaplan', 'Emircan', 'Tolga']
 });
 
-const clikHandler = () => {
+const clickHandler = () => {
 	addModal.value = true
 };
 
@@ -36,7 +36,7 @@ const submitHandler = () => {
 	
 <template>
 	<div class="nav">
-		<Button name="New" icon="add" variant="primary" classes="rounded" @click="clikHandler" />
+		<Button name="New" icon="add" variant="primary" classes="rounded" @click="clickHandler" />
 		<div class="nav__content">
 			<Tabs :panes="tabPanes" v-model:active="activeTab" />
 			<Dropdown :items="dropItems" v-model:value="dropValue" icon="filter_list" />
