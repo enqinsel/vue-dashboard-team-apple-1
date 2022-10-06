@@ -1,5 +1,5 @@
 <script setup>
-import { watchEffect } from 'vue'
+// import { watchEffect } from 'vue'
 const props = defineProps({
 	show: {
 		type: Boolean,
