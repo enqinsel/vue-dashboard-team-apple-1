@@ -21,7 +21,7 @@ const toggleHandler = () => {
 	<aside class="aside">
 		<div class="aside__header">
 			<div class="logo">
-				<img class="logo__image" src="@assets/apple.svg" />
+				<img class="logo__image" src="../../public/apple.svg"/>
 				<span class="logo__text">AppleTeam</span>
 			</div>
 			<Button :icon="toggleIcon" variant="icon" @click="toggleHandler" />
