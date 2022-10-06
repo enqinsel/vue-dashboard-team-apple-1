@@ -1,87 +1,224 @@
 [
 	{
-			"Status": 0,
-			"Project_Name":"Protein vue.js first week",
-			"Complated":96,
-			"Employees": [
-					{
-							"Employee_Name":"Seyit Atrslanturk",
-							"Employee_Avatar":"https://avatars.githubusercontent.com/u/112624968"
-					},
-					{
-							"Employee_Name":"Kaplan Arkan",
-							"Employee_Avatar":"https://avatars.githubusercontent.com/u/25702910"
-					},
-					{
-							"Employee_Name":"Emircan Ozenir",
-							"Employee_Avatar":"https://avatars.githubusercontent.com/u/81494873"
-					}
-			]
-		 } ,
- {
-	"Status": 1,
-	"Project_Name":"Protein vue.js last week",
-	"Complated":75,
-	"Employees": [
+		"Status": 0,
+		"Project_Name": "Protein vue.js first week",
+		"Complated": 96,
+		"Start_Date":"15 Sep 2022",
+		"Task_Count":24,
+		"Member":2,
+		"Employees": [
 			{
-					"Employee_Name":"Seyit Atrslanturk",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/112624968"
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
 			},
 			{
-					"Employee_Name":"Kaplan Arkan",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/25702910"
-			},
-			{
-					"Employee_Name":"Emircan Ozenir",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/81494873"
-			},
-			{
-					"Employee_Name":"Engin Insel",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/76450122"
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
 			}
-	]
- } ,
- {
-	"Status": 1,
-	"Project_Name":"Protein vue.js deneme 01",
-	"Complated":15,
-	"Employees": [
+		]
+	},
+	{
+		"Status": 1,
+		"Project_Name": "Protein vue.js last week",
+		"Complated": 75,
+		"Start_Date":"15 Aug 2022",
+		"Task_Count":16,
+		"Member":3,
+		"Employees": [
 			{
-					"Employee_Name":"Seyit Atrslanturk",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/112624968"
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
 			},
 			{
-					"Employee_Name":"Kaplan Arkan",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/25702910"
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
 			},
 			{
-					"Employee_Name":"Emircan Ozenir",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/81494873"
+				"Employee_Name": "Emircan Ozenir",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/81494873"
 			},
 			{
-					"Employee_Name":"Engin Insel",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/76450122"
+				"Employee_Name": "Engin Insel",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/76450122"
 			}
-	]
- } ,
- {
-	"Status": 2,
-	"Project_Name":"Protein vue.js first week",
-	"Complated":96,
-	"Employees": [
+		]
+	},
+	{
+		"Status": 1,
+		"Project_Name": "Protein vue.js deneme 01",
+		"Complated": 18,
+		"Start_Date":"15 Jun 2022",
+		"Task_Count":14,
+		"Member":4,
+		"Employees": [
 			{
-					"Employee_Name":"Seyit Atrslanturk",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/112624968"
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
 			},
 			{
-					"Employee_Name":"Kaplan Arkan",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/25702910"
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
 			},
 			{
-					"Employee_Name":"Emircan Ozenir",
-					"Employee_Avatar":"https://avatars.githubusercontent.com/u/81494873"
+				"Employee_Name": "Emircan Ozenir",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/81494873"
+			},
+			{
+				"Employee_Name": "Engin Insel",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/76450122"
 			}
-	]
- }
- 
+		]
+	},
+	{
+		"Status": 2,
+		"Project_Name": "Protein vue.js first week",
+		"Complated": 96,
+		"Start_Date":"15 May 2022",
+		"Task_Count":14,
+		"Member":3,
+		"Employees": [
+			{
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
+			},
+			{
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
+			},
+			{
+				"Employee_Name": "Emircan Ozenir",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/81494873"
+			}
+		]
+	},
+	{
+		"Status": 1,
+		"Project_Name": "Protein vue.js deneme 01",
+		"Complated": 18,
+		"Start_Date":"15 Jun 2022",
+		"Task_Count":14,
+		"Member":4,
+		"Employees": [
+			{
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
+			},
+			{
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
+			},
+			{
+				"Employee_Name": "Emircan Ozenir",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/81494873"
+			},
+			{
+				"Employee_Name": "Engin Insel",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/76450122"
+			}
+		]
+	},
+	{
+		"Status": 1,
+		"Project_Name": "Protein vue.js deneme 01",
+		"Complated": 18,
+		"Start_Date":"15 Jun 2022",
+		"Task_Count":14,
+		"Member":4,
+		"Employees": [
+			{
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
+			},
+			{
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
+			},
+			{
+				"Employee_Name": "Emircan Ozenir",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/81494873"
+			},
+			{
+				"Employee_Name": "Engin Insel",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/76450122"
+			}
+		]
+	},
+	{
+		"Status": 1,
+		"Project_Name": "Protein vue.js deneme 01",
+		"Complated": 18,
+		"Start_Date":"15 Jun 2022",
+		"Task_Count":14,
+		"Member":4,
+		"Employees": [
+			{
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
+			},
+			{
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
+			},
+			{
+				"Employee_Name": "Emircan Ozenir",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/81494873"
+			},
+			{
+				"Employee_Name": "Engin Insel",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/76450122"
+			}
+		]
+	},
+	{
+		"Status": 1,
+		"Project_Name": "Protein vue.js deneme 01",
+		"Complated": 18,
+		"Start_Date":"15 Jun 2022",
+		"Task_Count":14,
+		"Member":4,
+		"Employees": [
+			{
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
+			},
+			{
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
+			},
+			{
+				"Employee_Name": "Emircan Ozenir",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/81494873"
+			},
+			{
+				"Employee_Name": "Engin Insel",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/76450122"
+			}
+		]
+	},
+	{
+		"Status": 1,
+		"Project_Name": "Protein vue.js deneme 01",
+		"Complated": 18,
+		"Start_Date":"15 Jun 2022",
+		"Task_Count":14,
+		"Member":4,
+		"Employees": [
+			{
+				"Employee_Name": "Seyit Atrslanturk",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/112624968"
+			},
+			{
+				"Employee_Name": "Kaplan Arkan",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/25702910"
+			},
+			{
+				"Employee_Name": "Emircan Ozenir",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/81494873"
+			},
+			{
+				"Employee_Name": "Engin Insel",
+				"Employee_Avatar": "https://avatars.githubusercontent.com/u/76450122"
+			}
+		]
+	}
 ]
